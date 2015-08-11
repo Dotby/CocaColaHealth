@@ -76,7 +76,7 @@ public class AnimLineControl : MonoBehaviour {
 
 			case 4: 
 				sostavCan.Play("downCan");
-				txt.text = "Натуральный краситель карамель -\nэто обычный жженый сахар.";
+			txt.text = "Это пищевая добавка, которая применяется во многих продуктах питания: выпечке, сухих завтраках, соусах, мороженом, супах и мясных продуктах.";
 				compText.transform.root.gameObject.GetComponent<Animator>().Play("hide");
 				PlayCandy();
 				//Invoke("PlayCandy", 1.5f);

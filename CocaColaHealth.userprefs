@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AnimLineControl.cs">
     <Files>
-      <File FileName="Assets\Scripts\AnimLineControl.cs" Line="27" Column="17" />
+      <File FileName="Assets\Scripts\AnimLineControl.cs" Line="224" Column="3" />
+      <File FileName="Assets\Scripts\CanBeh.cs" Line="13" Column="71" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
