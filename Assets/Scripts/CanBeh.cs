@@ -6,7 +6,11 @@ public class CanBeh : StateMachineBehaviour {
 	 // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
 	override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
 		if (stateInfo.IsName("rotToFaceIdle") == true){
-			animator.gameObject.GetComponent<AnimLineControl>().RunSostav();
+			GameObject.Find("Root").GetComponent<AnimLineControl>().RunSostav();
+		}
+
+		if (stateInfo.IsName("idleUpCan") == true){
+			GameObject.Find("Root").GetComponent<AnimLineControl>().CanUpped();
 		}
 	}
 

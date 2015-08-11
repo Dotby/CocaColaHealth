@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Plugins\Editor\Unzip.js" />
+     <None Include="Assets\Water.shader" />
      <None Include="Assets\readme_SDK.txt" />
      <None Include="Assets\license_3rdpartynotice.txt" />
      <None Include="Assets\link.xml" />
